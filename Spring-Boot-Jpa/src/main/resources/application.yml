@@ -1,0 +1,10 @@
+spring:datasource:driver : com.mysql.jdbc.Driver
+url : jdbc:mysql://localhost:3306/sambit_db
+username : root
+passowrd : 
+jpa:
+show-sql : true
+hibernate:
+ddl-auto: update
+dialect: org.hibernate.dialect.MySQL5Dialect
+properties :
